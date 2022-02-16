@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=21500872_002Df00d_002D4250_002Dbf98_002Dba28cbb30e67/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetShortLink_ProcessLinkHasBeenCalled" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::925BC5A6-7FA5-4023-855E-1DAC2871EF00::.NETCoreApp,Version=v3.1::ShrtLy.UnitTest.ControllerTests.GetShortLink_ProcessLinkHasBeenCalled&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a5d522da_002D61b3_002D4391_002Db0fa_002Dbd7db4eda112/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetShortLink_ProcessLinkHasBeenCalled #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::925BC5A6-7FA5-4023-855E-1DAC2871EF00::.NETCoreApp,Version=v3.1::ShrtLy.UnitTest.ControllerTests.GetShortLink_ProcessLinkHasBeenCalled&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
