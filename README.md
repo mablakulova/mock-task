@@ -4,6 +4,7 @@ Following solution is an example of a shortener for links.
 It consists of 2 api's one for data access logic and another one for business layer logic.
 To keep it short in this document we will refer to them by dataApi and logicApi.
 LogicApi is exposes towards external integration. DataApi is for internal use only.
+Fork the solution into your own account to solve the tasks.
 
 
 Requirements for the refactoring of the code base are the following:
@@ -30,12 +31,12 @@ Set up business layer logic:
 
 Additional requirements:
 
-- Recomend a system design diagram of the running solution.
-- Recomend protection mechanisms.
-- Recomend a effective autoscaling strategy.
-- Recomend a effective monitoring strategy.
-- Recomend a deployment strategy that will lower the cost of maitaining the solution running.
-- Recomend a strategy for compute provisioning.
-- Recomend a CI/CD strategy that will ensure that deployment is done only in case that tests are passing. And that the running time for a deployment is optimised.
-- Recomend a strategy for geo-redundancy of the solution.
+- Recommend a system design diagram of the running solution.
+- Recommend protection mechanisms.
+- Recommend a effective autoscaling strategy.
+- Recommend a effective monitoring strategy.
+- Recommend a deployment strategy that will lower the cost of maitaining the solution running.
+- Recommend a strategy for compute provisioning.
+- Recommend a CI/CD strategy that will ensure that deployment is done only in case that tests are passing. And that the running time for a deployment is optimised.
+- Recommend a strategy for geo-redundancy of the solution.
 
