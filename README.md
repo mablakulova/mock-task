@@ -4,7 +4,7 @@ Following solution is an example of a shortener for links.
 It consists of 2 api's one for data access logic and another one for business layer logic.
 To keep it short in this document we will refer to them by dataApi and logicApi.
 LogicApi is exposes towards external integration. DataApi is for internal use only.
-Fork the solution into your own account to solve the tasks.
+Fork the solution to solve the tasks.
 
 
 Requirements for the refactoring of the code base are the following:
