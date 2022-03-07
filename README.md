@@ -38,5 +38,5 @@ Additional requirements:
 - Recommend a deployment strategy that will lower the cost of maitaining the solution running.
 - Recommend a strategy for compute provisioning.
 - Recommend a CI/CD strategy that will ensure that deployment is done only in case that tests are passing. And that the running time for a deployment is optimised.
-- Recommend a strategy for geo-redundancy of the solution.
+- Recommend a strategy for ensuring the system runs in case of data center failure.
 
