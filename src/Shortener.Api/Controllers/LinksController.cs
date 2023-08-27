@@ -1,6 +1,6 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Shortener.Api.Services;
 
 namespace Shortener.Api.Controllers
 {
@@ -16,28 +16,17 @@ namespace Shortener.Api.Controllers
         }
 
         [HttpGet]
-        public string GetShortLink(string url)
+        public async Task<string> GetShortLink(string url)
         {
-            return service.ProcessLink(url);
+            return await service.ProcessLinkAsync(url);
         }
 
         [HttpGet("all")]
-        public IEnumerable<LinkViewModel> GetShortLinks()
+        public async Task<IActionResult> GetShortLinks()
         {
-            var dtos = service.GetShortLinks();
+            var linkDtos = await service.GetShortLinksAsync();
 
-            List<LinkViewModel> viewModels = new List<LinkViewModel>();
-            for (int i = 0; i < dtos.Count(); i++)
-            {
-                var element = dtos.ElementAt(i);
-                viewModels.Add(new LinkViewModel {
-                    Id = element.Id,
-                    ShortUrl = element.ShortUrl,
-                    Url = element.Url
-                });
-            }
-
-            return viewModels;
+            return Ok(linkDtos);
         }
     }
 }
